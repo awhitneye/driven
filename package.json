@@ -1,0 +1,26 @@
+{
+  "name": "driven",
+  "version": "1.0.0",
+  "description": "fullstack vanlife customization app",
+  "main": "server/index.js",
+  "author": "Andrea W. Ellison",
+  "license": "MIT",
+  "homepage": "https://github.com/awhitneye/driven#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awhitneye/driven.git"
+  },
+  "bugs": {
+    "url": "https://github.com/awhitneye/driven/issues"
+  },
+  "scripts": {
+    "start:dev": "nodemon server/index.js",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.2",
+    "lodash": "^4.6.1",
+    "angular": "^1.6"
+  }
+}
+  
